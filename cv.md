@@ -28,3 +28,12 @@ I have knowledge from articles on the Internet on topics:
 		
 		return arr;
 	}
+
+#Education:
+Higher technical "VOENMEH"
+
+#Languages:
+*Russian - native
+*English - not native
+
+[Example of completed work](адрес "Example of completed work_")
