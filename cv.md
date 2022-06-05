@@ -2,8 +2,8 @@
 ![Alt-текст](profileFoto4.JPG "Подпись")
 
 # Contacts:
-email: k.bagrat@gmail.com
-discord: Bagrat#9909
+- email: k.bagrat@gmail.com
+- discord: Bagrat#9909
 
 # Target:
 Website development of a good level.
