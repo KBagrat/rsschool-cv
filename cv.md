@@ -14,7 +14,8 @@ I have knowledge from articles on the Internet on topics:
 *CSS
 *Git
 
--Sample code from Codewars:
+Sample code from Codewars:
+
 	function towerBuilder(nFloors) {
 		let numberOfSigns = nFloors + (nFloors - 1);
 
