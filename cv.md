@@ -15,7 +15,7 @@ I have knowledge from articles on the Internet on topics:
 *Git
 
 Sample code from Codewars:
-
+```
 	function towerBuilder(nFloors) {
 		let numberOfSigns = nFloors + (nFloors - 1);
 
