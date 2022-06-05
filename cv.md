@@ -19,15 +19,12 @@ Sample code from Codewars:
 ```sh
 	function towerBuilder(nFloors) {
 		let numberOfSigns = nFloors + (nFloors - 1);
-
 		let arr = [];
-
 		for (let i = 1, j = 1; j <= nFloors; i = i + 2, j++) {
 			let space = (numberOfSigns - i) / 2;
 			let str = " ".repeat(space) + "*".repeat(i) + " ".repeat(space);
 			arr.push(str);
 		}
-		
 		return arr;
 	}
 ```
