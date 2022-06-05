@@ -7,12 +7,13 @@
 
 # Target:
 Website development of a good level.
-I consider perseverance to be my strength. Now I work as a design engineer. After graduation, I plan to change jobs. 
+I consider perseverance to be my strength. Now I work as a design engineer. 
+After graduation, I plan to change jobs. 
 I have knowledge from articles on the Internet on topics:
-* JS
-* HTML
-* CSS
-* Git
+* _JS_
+* _HTML_
+* _CSS_
+* _Git_
 
 Sample code from Codewars:
 ```sh
