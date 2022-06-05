@@ -4,3 +4,27 @@
 #Contacts:
 email: k.bagrat@gmail.com
 discord: Bagrat#9909
+
+#Target:
+Website development of a good level.
+I consider perseverance to be my strength. Now I work as a design engineer. After graduation, I plan to change jobs. 
+I have knowledge from articles on the Internet on topics:
+*JS
+*HTML
+*CSS
+*Git
+
+-Sample code from Codewars:
+	function towerBuilder(nFloors) {
+		let numberOfSigns = nFloors + (nFloors - 1);
+
+		let arr = [];
+
+		for (let i = 1, j = 1; j <= nFloors; i = i + 2, j++) {
+			let space = (numberOfSigns - i) / 2;
+			let str = " ".repeat(space) + "*".repeat(i) + " ".repeat(space);
+			arr.push(str);
+		}
+		
+		return arr;
+	}
