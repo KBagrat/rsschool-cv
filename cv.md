@@ -1,21 +1,21 @@
-##Kvaratskheliya Bagrat
+## Kvaratskheliya Bagrat
 ![Alt-текст](profileFoto4.JPG "Подпись")
 
-#Contacts:
+# Contacts:
 email: k.bagrat@gmail.com
 discord: Bagrat#9909
 
-#Target:
+# Target:
 Website development of a good level.
 I consider perseverance to be my strength. Now I work as a design engineer. After graduation, I plan to change jobs. 
 I have knowledge from articles on the Internet on topics:
-*JS
-*HTML
-*CSS
-*Git
+* JS
+* HTML
+* CSS
+* Git
 
 Sample code from Codewars:
-```
+```sh
 	function towerBuilder(nFloors) {
 		let numberOfSigns = nFloors + (nFloors - 1);
 
@@ -29,12 +29,13 @@ Sample code from Codewars:
 		
 		return arr;
 	}
+```
 
-#Education:
+# Education:
 Higher technical "VOENMEH"
 
-#Languages:
-*Russian - native
-*English - not native
+# Languages:
+* Russian - native
+* English - not native
 
 [Example of completed work](https://KBagrat.github.io/rsschool-cv/cv "Example of completed work_")
