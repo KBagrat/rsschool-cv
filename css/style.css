@@ -53,7 +53,7 @@ header {
 	flex-direction: row;
 	justify-content: space-around;
 	padding: 10px 0;
-	border-bottom: #BCA88A 2px solid;
+	border-bottom: #BCA88A 4px solid;
 }
 
 .round {
@@ -79,7 +79,10 @@ header {
 	display: flex;
 	justify-content: space-around;
 	padding: 10px 0;
-	border-bottom: #BCA88A 2px solid;
+	border-bottom: #BCA88A 4px solid;
+}
+.line-2 .contacts li {
+	list-style-position: outside;
 }
 
 .line-2 .targets {
@@ -101,6 +104,7 @@ header {
 
 .line-3 .skills li {
 	margin: 0;
+	list-style-position: outside;
 }
 
 .line-3 .code {
