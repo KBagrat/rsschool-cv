@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/codeStyle.css">
+	<link rel="stylesheet" href="./css/mediaQueries.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,13 +46,13 @@
 			<div class="contacts">
 				<h3>Contacts:</h3>
 				<ul>
-					<li>email: bagrat.quara@gmail.com</li>
-					<li>discord: Bagrat#9909</li>
+					<li>email: <i>bagrat.quara@gmail.com</i></li>
+					<li>discord: <i>Bagrat#9909</i></li>
 				</ul>
 			</div>
 			<div class="targets">
 				<h3>Targets:</h3>
-				<p>I like solving problems in Javascript. I consider perseverance my strength. Now I work as a design engineer.
+				<p>I like solving tasks in Javascript. I consider perseverance my strength. Now I work as a design engineer.
 					I plan to change jobs in the future.</p>
 			</div>
 		</div>
@@ -68,17 +69,74 @@
 			</div>
 			<div class="code">
 				<h3>Sample code from Codewars:</h3>
-				<div class="javascript"><ol><li class="li1"><div class="de1"><span class="kw2">function</span> towerBuilder<span class="br0">&#40;</span>nFloors<span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; let numberOfSigns <span class="sy0">=</span> nFloors <span class="sy0">ez_plus</span> <span class="br0">&#40;</span>nFloors <span class="sy0">-</span> <span class="nu0">1</span><span class="br0">&#41;</span><span class="sy0">;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; let arr <span class="sy0">=</span> <span class="br0">&#91;</span><span class="br0">&#93;</span><span class="sy0">;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">for</span> <span class="br0">&#40;</span>let i <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">,</span> j <span class="sy0">=</span> <span class="nu0">1</span><span class="sy0">;</span> j <span class="sy0">&lt;=</span> nFloors<span class="sy0">;</span> i <span class="sy0">=</span> i <span class="sy0">ez_plus</span> <span class="nu0">2</span><span class="sy0">,</span> j<span class="sy0">++</span><span class="br0">&#41;</span> <span class="br0">&#123;</span></div></li>
-					<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; let space <span class="sy0">=</span> <span class="br0">&#40;</span>numberOfSigns <span class="sy0">-</span> i<span class="br0">&#41;</span> <span class="sy0">/</span> <span class="nu0">2</span><span class="sy0">;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; let str <span class="sy0">=</span> <span class="st0">&quot; &quot;</span>.<span class="me1">repeat</span><span class="br0">&#40;</span>space<span class="br0">&#41;</span> <span class="sy0">ez_plus</span> <span class="st0">&quot;*&quot;</span>.<span class="me1">repeat</span><span class="br0">&#40;</span>i<span class="br0">&#41;</span> <span class="sy0">ez_plus</span> <span class="st0">&quot; &quot;</span>.<span class="me1">repeat</span><span class="br0">&#40;</span>space<span class="br0">&#41;</span><span class="sy0">;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; arr.<span class="me1">push</span><span class="br0">&#40;</span>str<span class="br0">&#41;</span><span class="sy0">;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="br0">&#125;</span></div></li>
-					<li class="li1"><div class="de1">&nbsp; &nbsp; <span class="kw1">return</span> arr<span class="sy0">;</span></div></li>
-					<li class="li2"><div class="de2"><span class="br0">&#125;</span></div></li>
-					</ol></div>
+				<!-- This block from the site quickhighlighter.com -->
+				<div class="javascript">
+					<ul>
+						<li class="li1">
+							<div class="de1"><span class="kw2">function</span> towerBuilder<span class="br0">&#40;</span>nFloors<span
+									class="br0">&#41;</span> <span class="br0">&#123;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; let numberOfSigns <span class="sy0">=</span> nFloors <span
+									class="sy0">+</span> <span class="br0">&#40;</span>nFloors <span class="sy0">-</span> <span
+									class="nu0">1</span><span class="br0">&#41;</span><span class="sy0">;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; let arr <span class="sy0">=</span> <span class="br0">&#91;</span><span
+									class="br0">&#93;</span><span class="sy0">;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; <span class="kw1">for</span> <span class="br0">&#40;</span>let i <span
+									class="sy0">=</span> <span class="nu0">1</span><span class="sy0">,</span> j <span class="sy0">=</span>
+								<span class="nu0">1</span><span class="sy0">;</span> j <span class="sy0">&lt;=</span> nFloors<span
+									class="sy0">;</span> i <span class="sy0">=</span> i <span class="sy0">+</span> <span
+									class="nu0">2</span><span class="sy0">,</span> j<span class="sy0">++</span><span
+									class="br0">&#41;</span> <span class="br0">&#123;</span>
+							</div>
+						</li>
+						<li class="li2">
+							<div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; let space <span class="sy0">=</span> <span
+									class="br0">&#40;</span>numberOfSigns <span class="sy0">-</span> i<span class="br0">&#41;</span> <span
+									class="sy0">/</span> <span class="nu0">2</span><span class="sy0">;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; let str <span class="sy0">=</span> <span class="st0">&quot;
+									&quot;</span>.<span class="me1">repeat</span><span class="br0">&#40;</span>space<span
+									class="br0">&#41;</span> <span class="sy0">+</span> <span class="st0">&quot;*&quot;</span>.<span
+									class="me1">repeat</span><span class="br0">&#40;</span>i<span class="br0">&#41;</span> <span
+									class="sy0">+</span> <span class="st0">&quot; &quot;</span>.<span class="me1">repeat</span><span
+									class="br0">&#40;</span>space<span class="br0">&#41;</span><span class="sy0">;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; arr.<span class="me1">push</span><span
+									class="br0">&#40;</span>str<span class="br0">&#41;</span><span class="sy0">;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; <span class="br0">&#125;</span></div>
+						</li>
+						<li class="li1">
+							<div class="de1">&nbsp; &nbsp; <span class="kw1">return</span> arr<span class="sy0">;</span></div>
+						</li>
+						<li class="li2">
+							<div class="de2"><span class="br0">&#125;</span></div>
+						</li>
+					</ul>
+				</div>
+				<!-- END This block from the site quickhighlighter.com -->
+			</div>
+		</div>
+
+		<div class="line-4">
+			<div class="education">
+				<h3>Education:</h3>
+				<p>Higher technical “VOENMEH”</p>
+			</div>
+			<div class="languages">
+				<h3>Languages:</h3>
+				<ul>
+					<li>Russian - native</li>
+					<li>English - not native</li>
+				</ul>
 			</div>
 		</div>
 

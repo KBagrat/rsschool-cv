@@ -32,8 +32,13 @@
 .javascript .li1 {
 	font-weight: normal;
 	vertical-align: top;
-	font: normal normal 130% 'Courier New', Courier, monospace;
+	font: normal normal 100% 'Courier New', Courier, monospace;
 	color: #003030;
+	list-style-type: none;
+}
+
+.javascript ul {
+	padding-left: 0;
 }
 
 .javascript .ln {
