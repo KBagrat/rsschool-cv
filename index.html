@@ -15,7 +15,79 @@
 </head>
 
 <body>
-	<h1>My CV</h1>
+
+	<header class="header">
+		<nav class="nav">
+			<ul class="nav-list">
+				<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+				<li class="nav-item"><a href="#targets" class="nav-link">Targets</a></li>
+				<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+				<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+				<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+				<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="main">
+
+		<div class="line-1">
+			<img class="round" src="./profileFoto4.JPG" alt="my foto">
+			<div class="name-profession">
+				<h1>Bagrat Kvaratskheliya</h1>
+				<div class="line"></div>
+				<h2>RSschool student</h2>
+			</div>
+		</div>
+
+		<div class="line-2">
+			<div class="contacts">
+				<h3>Contacts:</h3>
+				<ul>
+					<li>email: bagrat.quara@gmail.com</li>
+					<li>discord: Bagrat#9909</li>
+				</ul>
+			</div>
+			<div class="targets">
+				<h3>Targets:</h3>
+				<p>Website development of a good level. I consider perseverance to be my strength. Now I work as a design
+					engineer. After graduation, I plan to change jobs.</p>
+			</div>
+		</div>
+
+		<div class="line-3">
+			<div class="skills">
+				<h3>Skills:</h3>
+				<ul>
+					<li>JS</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>GIT</li>
+				</ul>
+			</div>
+			<div class="code">
+				<h3>Sample code from Codewars:</h3>
+				<code>
+					function towerBuilder(nFloors) {<br>
+						let numberOfSigns = nFloors + (nFloors - 1);<br>
+						let arr = [];<br>
+						for (let i = 1, j = 1; j <= nFloors; i = i + 2, j++) { <br>
+							let space = (numberOfSigns - i) / 2;<br>
+							let str = " ".repeat(space) + "*".repeat(i) + " ".repeat(space);<br>
+							arr.push(str);<br>
+						}<br>
+						return arr;<br>
+					}<br>
+				</code>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="footer">
+	</footer>
+
+
 
 </body>
 

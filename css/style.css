@@ -3,5 +3,111 @@
 }
 
 body {
-	font-family: "Lato";
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato';
 }
+
+/* Header */
+header {
+	border: 1px solid blueviolet;
+	background-color: #BCA88A;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item {
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+.nav-item > a {
+	color: black;
+}
+
+.nav-item  > a:hover {
+	color: white;
+}
+/* Header end */
+
+
+.main {
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+/* Line-1 */
+.line-1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px 0;
+	border-bottom: #BCA88A 2px solid;
+}
+
+.round {
+	width: 200px;
+	border-radius: 200px;
+}
+
+.name-profession {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.line {
+	width: 100%;
+	border-bottom: 2px solid green;
+}
+/* Line-1 end */
+
+/* Line-2 */
+.line-2 {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	border-bottom: #BCA88A 2px solid;
+}
+
+.line-2 .targets {
+	margin: 0 30px;
+	max-width: 300px;
+}
+/* Line-2 end */
+
+/* Line-3 */
+.line-3 {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+
+.line-3 .skills {
+	margin: 0;
+}
+
+.line-3 .skills li {
+	margin: 0;
+}
+
+.line-3 .code {
+	max-width: 350px;
+}
+
+footer {
+	border: 1px solid red;
+}
+/* Line-3 end */
