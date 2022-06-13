@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -9,6 +10,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Lato';
+}
+a {
+	text-decoration: none;
 }
 
 /* --------------------------------- Header */
@@ -30,13 +34,19 @@ header {
 	list-style-type: none;
 }
 
-.nav-item > a {
+/* .nav-link {
+	transition: .3s;
+} */
+
+.nav-item>a {
 	color: black;
 }
 
-.nav-item  > a:hover {
+.nav-item>a:hover {
 	color: white;
+	transition: 0.3s;
 }
+
 /* Header end */
 
 
@@ -72,6 +82,7 @@ header {
 	width: 100%;
 	border-bottom: 2px solid green;
 }
+
 /* Line-1 end */
 
 /* --------------------------------- Line-2 */
@@ -82,22 +93,23 @@ header {
 	border-bottom: #BCA88A 1px solid;
 }
 
-.line-2 .contacts {
+.line-2 #contacts {
 	margin: 0 20px;
 }
 
-.line-2 .contacts ul {
+.line-2 #contacts ul {
 	padding-left: 20px;
 }
 
-.line-2 .contacts li {
+.line-2 #contacts li {
 	list-style-position: outside;
 }
 
-.line-2 .targets {
+.line-2 #targets {
 	margin: 0 20px;
 	max-width: 300px;
 }
+
 /* Line-2 end */
 
 /* --------------------------------- Line-3 */
@@ -108,20 +120,21 @@ header {
 	border-bottom: #BCA88A 1px solid;
 }
 
-.line-3 .skills {
+.line-3 #skills {
 	margin: 0 20px;
+
 }
 
-.line-3 .skills ul {
+.line-3 #skills ul {
 	padding-left: 20px;
 }
 
-.line-3 .skills li {
+.line-3 #skills li {
 	margin: 0;
 	list-style-position: outside;
 }
 
-.line-3 .code {
+.line-3 #code {
 	max-width: 800px;
 }
 
@@ -132,28 +145,51 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 0;
-	
+
 }
 
-.line-4 .education {
+.line-4 #education {
 	margin: 0 20px;
 }
 
-.line-4 .languages {
+.line-4 #languages {
 	margin: 0 20px;
 }
 
-.line-4 .languages ul {
+.line-4 #languages ul {
 	padding-left: 20px;
 }
 
-.line-4 .languages li {
+.line-4 #languages li {
 	margin: 0;
 	list-style-position: outside;
 }
+
 /* Line-4 end */
 
 /* --------------------------------- Footer */
 footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #BCA88A;
+	height: 80px;
+}
+
+.footer * {
+	margin: 0 20px;
+	color: black;
+	transition: 0.3s;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+.footer .rss {
+	width: 121px;
+	height: 45px;
+	background-image: url("../rss.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
