@@ -36,4 +36,5 @@ Higher technical "VOENMEH"
 * Russian - native
 * English - not native
 
+
 [Example of completed work](https://KBagrat.github.io/rsschool-cv/cv "Example of completed work_")
