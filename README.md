@@ -1,2 +1,2 @@
 # rsschool-cv
-https://KBagrat.github.io/rsschool-cv/
+https://KBagrat.github.io/rsschool-cv/cv
