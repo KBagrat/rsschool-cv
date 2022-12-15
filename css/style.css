@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../assets/fonts/Lato-Light.ttf");
+}
+
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
@@ -6,10 +11,11 @@
 body {
 	display: flex;
 	flex-direction: column;
-	/* min-height: 100vh; */
+	justify-content: space-between;
+	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	font-family: 'Lato';
+	font-family: "Lato", sans-serif;
 }
 
 a {
@@ -23,32 +29,32 @@ header {
 
 .nav-list {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
+	padding: 0;
 }
 
 .nav-item {
-	margin: 10px;
 	font-size: 20px;
-	font-weight: bold;
 	list-style-type: none;
 }
 
-/* .nav-link {
-	transition: .3s;
-} */
-
 .nav-item>a {
+	padding: 10px;
 	color: black;
+	transition: 0.3s;
 }
 
 .nav-item>a:hover {
 	color: white;
-	transition: 0.3s;
 }
 
-/* Header end */
+/* .nav-item>a:hover {
+	color: white;
+	transition: 0.3s;
+} */
 
+/* Header end */
 
 .main {
 	display: flex;
@@ -182,6 +188,11 @@ footer {
 	transition: 0.3s;
 }
 
+.footer a {
+	/* margin: 0; */
+	padding: 10px;
+}
+
 .footer a:hover {
 	color: white;
 }
@@ -192,5 +203,4 @@ footer {
 	background-image: url("../rss.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-  font-size: 0px;
 }
