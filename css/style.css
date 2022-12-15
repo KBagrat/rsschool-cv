@@ -200,7 +200,7 @@ footer {
 .footer .rss {
 	width: 121px;
 	height: 45px;
-	background-image: url("../rss.svg");
+	background-image: url("../assets/svg/rss.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
