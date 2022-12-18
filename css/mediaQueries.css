@@ -23,12 +23,9 @@
 		flex-wrap: wrap;
 	}
 
-	h1 {}
-
 	h3 {
 		font-size: 25px;
 	}
-
 
 	.line-1,
 	.line-2,
@@ -50,7 +47,6 @@
 	}
 
 	.footer div {
-		/* display: flex; */
 		flex-direction: column;
 	}
 }
