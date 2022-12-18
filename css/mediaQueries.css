@@ -3,7 +3,18 @@
 @media (min-width: 991px) and (max-width: 1199px) { ... }
 @media (min-width: 1200px) { ... } */
 
-@media (max-width: 415px) {
+@media (min-width: 630px) {
+
+	.hide-line {
+		width: 0;
+	}
+
+}
+
+@media (min-width: 0) and (max-width: 630px) {
+	p {
+		font-size: 20px;
+	}
 
 	.nav-list {
 		display: flex;
@@ -12,8 +23,8 @@
 		flex-wrap: wrap;
 	}
 
-	main h1 {
-		text-align: center;
+	h3 {
+		font-size: 25px;
 	}
 
 	.line-1,
@@ -30,23 +41,12 @@
 		align-items: center
 	}
 
+	.footer {
+		padding: 20px 0;
+		min-height: 120px;
+	}
+
 	.footer div {
-		/* display: flex; */
 		flex-direction: column;
 	}
-}
-
-@media (min-width: 416px) and (max-width: 540px) {
-
-	.nav-list {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-
-	main h1 {
-		text-align: center;
-	}
-	
 }

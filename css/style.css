@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../assets/fonts/Lato-Light.ttf");
+}
+
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
@@ -6,14 +11,14 @@
 body {
 	display: flex;
 	flex-direction: column;
-	/* min-height: 100vh; */
-	margin: 0;
-	padding: 0;
-	font-family: 'Lato';
+	justify-content: space-between;
+	min-height: 100vh;
+	font-family: "Lato", sans-serif;
 }
 
 a {
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 /* --------------------------------- Header */
@@ -23,32 +28,33 @@ header {
 
 .nav-list {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
+	padding: 0;
 }
 
 .nav-item {
-	margin: 10px;
 	font-size: 20px;
-	font-weight: bold;
 	list-style-type: none;
 }
 
-/* .nav-link {
-	transition: .3s;
-} */
-
 .nav-item>a {
+	margin: 15px;
+	padding: 5px;
 	color: black;
+	transition: 0.3s;
 }
 
 .nav-item>a:hover {
 	color: white;
-	transition: 0.3s;
 }
 
-/* Header end */
+/* .nav-item>a:hover {
+	color: white;
+	transition: 0.3s;
+} */
 
+/* Header end */
 
 .main {
 	display: flex;
@@ -60,7 +66,6 @@ header {
 /* --------------------------------- Line-1 */
 .line-1 {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	padding: 10px 0;
 	border-bottom: #bca88aaf 4px solid;
@@ -76,9 +81,10 @@ header {
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
+	text-align: center;
 }
 
-.line {
+.green-line {
 	width: 100%;
 	border-bottom: 2px solid green;
 }
@@ -105,6 +111,11 @@ header {
 	list-style-position: outside;
 }
 
+.hide-line {
+	width: 100%;
+	border-bottom: 1px solid #BCA88A;
+}
+
 .line-2 #targets {
 	margin: 0 20px;
 	max-width: 300px;
@@ -122,7 +133,6 @@ header {
 
 .line-3 #skills {
 	margin: 0 20px;
-
 }
 
 .line-3 #skills ul {
@@ -170,16 +180,31 @@ header {
 /* --------------------------------- Footer */
 footer {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-around;
 	background-color: #BCA88A;
 	height: 80px;
+	/* border: 1px solid green */
 }
 
 .footer * {
 	margin: 0 20px;
 	color: black;
 	transition: 0.3s;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #BCA88A;
+	height: 80px;
+	width: 600px;
+	/* border: 1px solid; */
+}
+
+.footer a {
+	/* margin: 0; */
+	padding: 10px;
 }
 
 .footer a:hover {
@@ -189,8 +214,7 @@ footer {
 .footer .rss {
 	width: 121px;
 	height: 45px;
-	background-image: url("../rss.svg");
+	background-image: url("../assets/svg/rss.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-  font-size: 0px;
 }
