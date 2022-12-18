@@ -13,8 +13,6 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	min-height: 100vh;
-	margin: 0;
-	padding: 0;
 	font-family: "Lato", sans-serif;
 }
 
@@ -40,7 +38,8 @@ header {
 }
 
 .nav-item>a {
-	padding: 10px;
+	margin: 15px;
+	padding: 5px;
 	color: black;
 	transition: 0.3s;
 }
@@ -66,7 +65,6 @@ header {
 /* --------------------------------- Line-1 */
 .line-1 {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	padding: 10px 0;
 	border-bottom: #bca88aaf 4px solid;
@@ -176,16 +174,26 @@ header {
 /* --------------------------------- Footer */
 footer {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: space-around;
 	background-color: #BCA88A;
 	height: 80px;
+	/* border: 1px solid green */
 }
 
 .footer * {
 	margin: 0 20px;
 	color: black;
 	transition: 0.3s;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #BCA88A;
+	height: 80px;
+	width: 600px;
+	/* border: 1px solid; */
 }
 
 .footer a {
